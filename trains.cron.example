@@ -1,0 +1,3 @@
+# */1 * * * * /usr/bin/python3 /home/tedi/Documents/python_exercises/trains.py >>/home/tedi/Documents/python_exercises/trains.log 2>&1
+# * * * * * cd /home/tedi/Documents/python_exercises; /usr/bin/python3 trains.py >> trains.log 2>&1
+* * * * * cd /home/tedi/Documents/python_exercises; python3 trains.py >> trains.log 2>&1
